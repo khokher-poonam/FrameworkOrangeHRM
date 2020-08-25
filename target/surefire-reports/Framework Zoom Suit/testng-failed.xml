@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Framework Zoom Suit]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.Frame.qa.Listeners.ScreenshotListener"/>
+  </listeners>
+  <test thread-count="5" name="Framework Zoom TestCases(failed)" verbose="0">
+    <classes>
+      <class name="com.Frame.qa.TestCases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="LoginOrange"/>
+        </methods>
+      </class> <!-- com.Frame.qa.TestCases.LoginPageTest -->
+    </classes>
+  </test> <!-- Framework Zoom TestCases(failed) -->
+</suite> <!-- Failed suite [Framework Zoom Suit] -->

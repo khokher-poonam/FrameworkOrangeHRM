@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-14T16:26:57Z" name="Framework OrangeHRM Suit" finished-at="2020-08-14T16:27:08Z" duration-ms="11153">
+    <groups>
+    </groups>
+    <test started-at="2020-08-14T16:26:57Z" name="Framework OrangeHRM TestCases" finished-at="2020-08-14T16:27:08Z" duration-ms="11153">
+      <class name="com.Frame.qa.TestCases.OrangeHRMDashboardTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Frame.qa.TestCases.OrangeHRMDashboardTest@1a1ed4e5]" started-at="2020-08-14T16:26:56Z" name="setUp" finished-at="2020-08-14T16:26:57Z" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signIn()[pri:0, instance:com.Frame.qa.TestCases.OrangeHRMDashboardTest@1a1ed4e5]" started-at="2020-08-14T16:27:04Z" name="signIn" finished-at="2020-08-14T16:27:05Z" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="loginPageTitle()[pri:1, instance:com.Frame.qa.TestCases.OrangeHRMDashboardTest@1a1ed4e5]" started-at="2020-08-14T16:27:07Z" name="loginPageTitle" finished-at="2020-08-14T16:27:07Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitle -->
+      </class> <!-- com.Frame.qa.TestCases.OrangeHRMDashboardTest -->
+      <class name="com.Frame.qa.TestCases.LoginPageTest">
+        <test-method signature="LoginOrange([Ljava.lang.String;)[pri:0, instance:com.Frame.qa.TestCases.LoginPageTest@667e34b1]" started-at="2020-08-14T16:26:57Z" name="LoginOrange" data-provider="loginPageProvider" finished-at="2020-08-14T16:27:04Z" duration-ms="6894" status="FAIL">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+Data provider mismatch
+Method: LoginOrange([Parameter{index=0, type=[Ljava.lang.String;, declaredAnnotations=[]}])
+Arguments: []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: LoginOrange([Parameter{index=0, type=[Ljava.lang.String;, declaredAnnotations=[]}])
+Arguments: []
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:45)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:796)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:983)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginOrange -->
+        <test-method signature="LoginOrange([Ljava.lang.String;)[pri:0, instance:com.Frame.qa.TestCases.LoginPageTest@667e34b1]" started-at="2020-08-14T16:26:57Z" name="LoginOrange" data-provider="loginPageProvider" finished-at="2020-08-14T16:27:03Z" duration-ms="5638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4207609e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginOrange -->
+      </class> <!-- com.Frame.qa.TestCases.LoginPageTest -->
+      <class name="com.Frame.qa.TestCases.AdminPageTest">
+        <test-method signature="formTest([Ljava.lang.String;)[pri:0, instance:com.Frame.qa.TestCases.AdminPageTest@1c6e0a08]" started-at="2020-08-14T16:27:05Z" name="formTest" data-provider="adminPageProvider" finished-at="2020-08-14T16:27:06Z" duration-ms="581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1f77b5cc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Frame.qa.TestCases.AdminPageTest@1c6e0a08]" started-at="2020-08-14T16:27:08Z" name="tearDown" finished-at="2020-08-14T16:27:08Z" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Frame.qa.TestCases.AdminPageTest -->
+    </test> <!-- Framework OrangeHRM TestCases -->
+  </suite> <!-- Framework OrangeHRM Suit -->
+</testng-results>

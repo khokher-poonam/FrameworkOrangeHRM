@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.995 s <<< FAILURE! - in TestSuite
+com.Frame.qa.TestCases.LoginPageTest.LoginOrange  Time elapsed: 6.993 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: LoginOrange([Parameter{index=0, type=[Ljava.lang.String;, declaredAnnotations=[]}])
+Arguments: []
+

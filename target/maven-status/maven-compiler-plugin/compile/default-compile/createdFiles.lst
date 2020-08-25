@@ -1,0 +1,9 @@
+com\Frame\qa\pages\PimPage.class
+com\Frame\qa\pages\MarketPlacePage.class
+com\Frame\qa\pages\LeavePage.class
+com\Frame\qa\pages\DirectoryPage.class
+com\Frame\qa\pages\LoginPage.class
+com\Frame\qa\pages\AdminPage.class
+com\Frame\qa\pages\ContactPageZoomData.class
+com\Frame\qa\pages\HomePage.class
+com\Frame\qa\pages\AssignLeavePage.class

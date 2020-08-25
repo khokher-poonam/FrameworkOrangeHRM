@@ -1,0 +1,8 @@
+com\Frame\qa\Util\CaptureType.class
+com\Frame\qa\TestCases\DirectoryPageTest.class
+com\Frame\qa\reports\HtmlReports.class
+com\Frame\qa\TestCases\AdminPageTest.class
+com\Frame\qa\TestCases\ExcelDataResult.class
+com\Frame\qa\TestCases\LoginPageTest.class
+com\Frame\qa\TestCases\HomePageTest.class
+com\Frame\qa\Util\FrameWorkUtls.class

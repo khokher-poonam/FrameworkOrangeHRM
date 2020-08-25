@@ -1,0 +1,16 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" > <!--testng schema-->
+<suite name="Framework OrangeHRM Suit">
+    <listeners>
+        <listener class-name="com.Frame.qa.Listeners.ScreenshotListener"></listener>
+    </listeners>
+    <test name="Framework OrangeHRM TestCases">
+        <classes>
+            <class name="com.Frame.qa.TestCases.LoginPageTest"></class>
+            <class name="com.Frame.qa.TestCases.OrangeHRMDashboardTest"></class>
+            <class name="com.Frame.qa.TestCases.AdminPageTest"></class>
+            <class name="com.Frame.qa.TestCases.AssignLeavePageTest"></class>
+
+        </classes>
+    </test>
+</suite>
